@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+#center {
+    position: relative;
+    width :60%;
+    height :78%;
+    background-color: rgb(232, 232, 193);
+}
+
+.imagecontainer {
+    overflow: hidden;
+    position: absolute;
+    width : 0%;
+    height :100%;
+    /* background-color: yellow; */
+}
+
+img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    position : absolute;
+    bottom: 10%;
+    left : -10%;
+    overflow: hidden;
+    width: 400px;
+    height: 100px;
+    z-index: 10;
+}
+
+.text h1{
+    font-size: 6vw;
+    position: relative;
+}
